@@ -1,3 +1,6 @@
+#目前常見的決策樹演算法包括:
+#1.分類與決策樹 CART(Classification and Regression Tree) 2.ID3(Inductive Dichotomiser 3) 3.C5.0
+#CART運算方式主要是利用二元(binary)分割原理,運算過程中,永遠分割出兩個子節點(Child Node),而可使用rpart()函數來執行CARD
 #rpart(formula,data,weights,subset,na.action=na.rpart,method,parms,control,...)
 #formula 表示模型的公式,ex:Y~X1+X2+X3
 #data 表示為建立模型用的資料名稱
